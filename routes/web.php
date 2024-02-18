@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::HEAD('/',function (){
+Route::any('/',function (){
     return view('Templete');
 })->name('Templete');
 Route::get('/m',function (){
